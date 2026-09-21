@@ -1,0 +1,30 @@
+{
+  "name": "projeto-integrador-test",
+  "version": "1.0.0",
+  "description": "Desenvolver um aplicativo móvel voltado para gestão de cantinas.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "db:create": "node scripts/create-db.js",
+    "db:insert": "node scripts/insert-db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profchauchuty/projeto-integrador-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/profchauchuty/projeto-integrador-test/issues"
+  },
+  "homepage": "https://github.com/profchauchuty/projeto-integrador-test#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
