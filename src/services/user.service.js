@@ -21,6 +21,11 @@ class UserService {
         if (userExists) {
             return null
         }
+
+        if(data.username.length > 8){
+            return null
+        }
+        
         db.usuarios.push({
             id: lastId + 1,
             ...data
